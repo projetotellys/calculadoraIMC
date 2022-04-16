@@ -1,0 +1,84 @@
+body{
+    background: url(imagem/ufrr.png) center center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+h1,h2,h5{
+    color: #ffffff;
+}
+
+h1{
+    margin-left: 15px;
+    margin-block-start: 0em;
+    color: white;
+}
+.imput-area{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.imput{
+    height: 1.5em;
+}
+
+textarea{
+    width:100%;
+    margin-top: 2em;
+}
+
+.contaider{
+    background-color: #5a5a5af5;
+    display: inline-flex;
+    padding: 2em;
+    border-radius: 18px;
+    flex-direction: column;
+    align-items: center;
+    width: 23em;
+}
+.lado img{
+    width: 70px;
+    height: 70px;
+}
+
+.lado{
+    align-items: center;
+    display: flex;
+}
+.area{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    border-radius: 0.5em;
+    height: 3em;
+    width: 50%;
+    background-color: #79a1e2;
+    color: white;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+h5{
+    margin-top: 30px;
+
+}
+
+a{
+    width: 105px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    text-decoration: none;
+    color: #79a1e2;
+    background-color: rgb(78, 78, 78);
+    text-align: center;
+    border-radius: 0.5em;
+
+}
